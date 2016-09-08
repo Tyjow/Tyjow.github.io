@@ -1,0 +1,154 @@
+/* Polices */
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Great Vibes'), local('GreatVibes-Regular'), url(../fonts/GreatVibes-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(../fonts/Roboto-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(../fonts/Roboto-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(../fonts/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(../fonts/Roboto-Black.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Philosopher'), url(../fonts/Philosopher.ttf) format('truetype');
+}
+
+/*General Content*/
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+html, body {
+	margin: 0;
+}
+canvas {
+	background-color: #222;
+	width: 100vw;
+	height: 100vh;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -9999;
+}
+.parallax {
+    background-image: url("fake_img_parallax.jpg");
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paral-top {
+	height: 400px;
+}
+
+/*Navbar*/
+
+.navbar-inverse {
+	border-color: #666 !important;
+	border-left-width: 0 !important;
+	border-right-width: 0 !important;
+	background-color: transparent !important;
+	color: #fff !important;
+	transition: all 0.50s;
+}
+.navbar {
+	border-radius: 0 !important;
+	padding: 15px 0;
+	transition: all 0.50s;
+}
+.navbar-brand {
+	font-size: 40px !important;
+	color: #f1f1f1 !important;
+	transition: all 0.50s;
+}
+.navbar-inverse .navbar-nav > li > a {
+	font-size: 17px;
+	font-weight: 300;
+	color: #f1f1f1 !important;
+}
+.navbar-inverse .navbar-collapse {
+	display: flex;
+	justify-content: center;
+}
+
+/*Scroll JS*/
+
+.navbar-inverse.scroll {
+	visibility: hidden;
+	transition: all 0.50s;
+	opacity: 0;
+}
+.navbar.scroll {
+	padding: 2px 0;
+}
+.navbar-brand.scroll {
+	font-size: 20px !important;
+}
+
+
+/*Header*/
+
+header {
+	width: 100%;
+	height: 400px;
+	color: #fff;
+	background-color: #222;
+}
+.flex-col {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*Core*/
+
+section {
+	width: 100%;
+	height: 500px;
+	color: #fff;
+	background-color: #222;
+}
+.welcome > h2 {
+	font-size: 70px;
+	color: #fff;
+	text-shadow: 0.1em 0.05em 0.05em #404040;
+}
+.work > p {
+	font-size: 17px;
+}
