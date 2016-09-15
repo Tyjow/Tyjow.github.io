@@ -80,7 +80,7 @@ canvas {
 	border-right-width: 0 !important;
 	background-color: transparent !important;
 	color: #fff !important;
-	transition: all 0.50s;
+	transition: all 0.30s;
 }
 .navbar {
 	border-radius: 0 !important;
@@ -101,12 +101,55 @@ canvas {
 	display: flex;
 	justify-content: center;
 }
+.navbar-inverse .navbar-nav > .open > a {
+	background-color: transparent !important;
+	border-top: 1px solid #9d9d9d !important;
+	border-bottom: 1px solid #9d9d9d !important;
+}
+.dropdown-menu {
+	padding: 15px 0 !important;
+	background-color: #222 !important;
+}
+.dropdown .dropdown-menu {
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	max-height: 0;
+	display: block;
+	overflow: hidden;
+	opacity: 0;
+}
+.dropdown.open .dropdown-menu {
+	max-height: 300px;
+	opacity: 1;
+}
+.dropdown-menu > li > a:hover {
+	color: #fff !important;
+	background-color: transparent !important;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.6), 0 0 6px cyan, 0 0 10px #66ff99;
+}
+.dropdown-menu > li > a{
+	color: #fff !important;
+}
+.navbar-inverse .navbar-header .navbar-brand:hover{
+	color: #fff;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.6), 0 0 6px cyan, 0 0 10px #66ff99;
+	transform: translate(0) rotate(360deg);
+	transition: all 0.60s;
+}
+.navbar-inverse .nav > li > a:hover {
+	color: #fff;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.6), 0 0 6px cyan, 0 0 10px #66ff99;
+	transition: all 0.60s;
+}
 
 /*Scroll JS*/
 
 .navbar-inverse.scroll {
 	visibility: hidden;
-	transition: all 0.50s;
+	transition: all 0.30s;
 	opacity: 0;
 }
 .navbar.scroll {
@@ -114,6 +157,10 @@ canvas {
 }
 .navbar-brand.scroll {
 	font-size: 20px !important;
+}
+.welcome h2.scroll {
+	transition: all 0.50s;
+	opacity: 0;
 }
 
 
@@ -140,7 +187,7 @@ header {
 
 section {
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	color: #fff;
 	background-color: #222;
 }
@@ -148,7 +195,24 @@ section {
 	font-size: 70px;
 	color: #fff;
 	text-shadow: 0.1em 0.05em 0.05em #404040;
+	transition: all 0.50s;
 }
-.work > p {
+@media screen and (max-width: 768px) {
+	.welcome > h2 {
+		font-size: 45px;
+		text-align: center;
+		color: #fff;
+		text-shadow: 0.1em 0.05em 0.05em #404040;
+		transition: all 0.50s;
+		margin-top: 170px !important;
+	}
+}
+.who > p {
 	font-size: 17px;
+}
+footer {
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	background-color: #222;
 }
