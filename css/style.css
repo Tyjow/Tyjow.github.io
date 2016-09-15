@@ -143,11 +143,6 @@ canvas {
 	margin-left: 70px !important;
 	padding-top: 5px;
 }
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-nav > li > a:hover {
-	text-shadow: 1px 1px 5px #000, 0 0 20px yellow, 0 0 8px #66ff99;
-	transition: text-shadow .3s;
-}
 
 /*Scroll JS*/
 
