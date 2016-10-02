@@ -8,21 +8,15 @@
 
 	<title>Tyjow</title>
 
-	<!-- style LESS -->
-  	<!-- <link rel="stylesheet/less" type="text/css" href="css/style.less"/> -->
   	<!-- style CSS -->
   	<link rel="stylesheet" type="text/css" href="css/style.css">
 
   	<!-- Bootstrap -->
-  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-
-  	<!-- <script src="js/less.min.js" type="text/javascript"></script> -->
-  	
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>	
 
 </head>
 
 <body>
-<canvas id="canny">Votre navigateur ne supporte pas Canvas, Mettez votre navigateur à jour !</canvas>
 
 	<!-- barre de navigation -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -33,56 +27,122 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-	      <a class="navbar-brand" href="#">Tyjow</a>
+	      <a class="navbar-brand" href="#">
+	      	<span class="btn-tyjow"></span>
+	      	<span class="btn-tyjow"></span>
+	      	<span class="btn-tyjow"></span>
+	      </a>
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
 		    <ul class="nav navbar-nav">
 		      <!-- <li class="active"><a href="#">Accueil</a></li> -->
 		      <li><a href="https://tyjow.github.io/Tyjow-Portfolio/">Portfolio</a></li>
+		      <li><a href="#">Profil</a></li>
 		      <li class="dropdown">
-		        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Jeux
+		        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Games
 		        <span class="caret"></span></a>
 		        <ul class="dropdown-menu">
 		          <li><a href="https://tyjow.github.io/Tyjow-Games/" target="_blank">Tyjow's Game</a></li>
 		          <li><a href="#">A venir..</a></li>
 		        </ul>
 		      </li>
-		      <li><a href="#">A venir..</a></li>
 		    </ul>
 	    </div>
 	  </div>
 	</nav>
 
-	<!-- Parallax -->
-	<div class="parallax paral-top flex">
-		<div class="welcome">
-			<h2>Bienvenue sur mon site</h2>
-		</div>
-	</div>
+	<!-- Content -->
+	<article id="main">
+		<!-- Header -->
+		<article id="intro">
+			<div class="main-header" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+				<div class="welcome" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+					<h2>Tyjow</h2>
+					<h2>-</h2>
+					<h2>Dev Junior</h2>
+				</div>
+				<div class="scrollBas" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+					<p>Scroll Down</p>
+					<div class="icon-arrow-bas"></div>
+				</div>
+			</div>
+		</article>
+
+		<!-- Core -->
+		<article id="core">
+			<div class="content-core">
+				<div class="mid scene">
+					<div class="core-img spe" style="opacity: 0.8; transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+					<h2 class="title normal2" style="transform: matrix(1, 0, 0, 1, 0, 0);">FORMATION</h2>
+					<div class="content-info">
+						<div class="box-text fast" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+							FORMATION LABELISE
+							<br><br>
+							GRANDE ECOLE DU NUMERIQUE
+							<div class="box-anim">
+								<div class="top-line"></div>
+								<div class="right-line"></div>
+								<div class="bot-line"></div>
+								<div class="left-line"></div>
+							</div>
+						</div>
+						<div class="first-letter letter-content soFast" style="transform: matrix(1, 0, 0, 1, 0, 0);">T</div>
+						<div class="main-content-img bloc img1 normal" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+							<div class="img-hover"></div>
+							<img class="ecole-pane spe1" src="img/grande-ecole.png" data-image="img/grande-ecole.png" style="opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+							<div class="imgBackground"></div>
+						</div>
+						<div class="snd-letter letter-content soFast2" style="transform: matrix(1, 0, 0, 1, 0, 0);">Y</div>
+						<div class="third-letter letter-content soFast3" style="transform: matrix(1, 0, 0, 1, 0, 0);">J</div>
+						<div class="fourth-letter letter-content soFast4" style="transform: matrix(1, 0, 0, 1, 0, 0);">O</div>
+						<div class="fifth-letter letter-content soFast3" style="transform: matrix(1, 0, 0, 1, 0, 0);">W</div>
+					</div>
+				</div>
+
+				<div class="mid2 scene">
+					<div class="mid2-img spe2" style="opacity: 0.8; transform: matrix(1, 0, 0, 1, 0, 0);"></div>
+					<h2 class="title normal2" style="transform: matrix(1, 0, 0, 1, 0, 0);">ABOUT ME</h2>
+					<div class="content-info">
+						<div class="box-text fast" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+							QUI SUIS-JE ?
+							<br><br>
+							<a href="#">EN SAVOIR +</a>
+							<div class="box-anim">
+								<div class="top-line"></div>
+								<div class="right-line"></div>
+								<div class="bot-line"></div>
+								<div class="left-line"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+	</article>
 
 	<!-- Header -->
-	<header class="flex-col text-center">
-		<div class="who">
+	<!-- <header id="paraImg" class="flex-col text-center"> -->
+		<!-- <div class="who">
 			<h2>Qui suis-je ?</h2>
 			<p>Je me présente, je m'appel Jonathan.<br><br>Je suis nouveau dans le domaine du développement et je fais partie de la Code Académie, une formation dans le but de devenir un développeur Web/Mobile aguérri :)<br>Pour en savoir plus, Cliquez <a href="#">Ici</a> pour visualiser mon portfolio.</p>
+		</div> -->
+		<!-- <div class="tyjow-bg"></div>
+		<div class="welcome">
+			<h2>Bienvenue</h2>
+			<h2>Sur</h2>
+			<h2>Mon site</h2>
 		</div>
-	</header>
-
-	<!-- Parallax -->
-	<div class="parallax"></div>
+	</header> -->
 
 	<!-- Core -->
-	<section class="flex-col text-center">
+	<!-- <section class="flex-col text-center">
 		<div class="who">
 			<h2>Présentation</h2>
 			<p>Ici, je vais vous parlez de mes projets aussi bien ceux effectuée dans le cadre de ma formation, que de mes persos.<br>Tout d'abord commençons avec un projet perso que j'ai conçu avec le framework Phaser ! qui permet la création de jeu HTML5 2D mobile et desktop.<br>Attention ce n'est pas un logiciel, le principe est de produire du code javascript ou du coffeescript.<br><br>Pour en savoir plus, je vous invite à cliquer sur ce lien <a href="http://phaser.io/" target="_blank">Phaser</a><br>Je vais également pour concevoir un petit tuto sur la manière d'aborder Phaser afin de vous guider.<br>Je tiens à préciser que je ne suis pas un expert, mais seulement un apprenant autodidacte ayant des appétances ;)</p>
 		</div>
-	</section>
+	</section> -->
 
-	<!-- Parallax -->
-	<div class="parallax"></div>
-
-	<footer class="flex-col text-center who">
+	<footer class="flex text-center">
 		<p>Copyright © 2016 . Designed by Tyjow. </p>
 	</footer>
 
@@ -90,6 +150,11 @@
 </body>
 <script src="js/jquery.js" type="text/javascript"></script>
 <script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/ScrollMagic.min.js" type="text/javascript"></script>
+<script src="js/jquery.viewportchecker.js" type="text/javascript"></script>
+<script src="js/animation.gsap.min.js" type="text/javascript"></script>
+<script src="js/debug.addIndicators.min.js" type="text/javascript"></script>
+<script src="js/TweenMax.min.js" type="text/javascript"></script>
+<script src="js/tyjow.scrollMagic.js" type="text/javascript"></script>
 <script src="js/scroll.js" type="text/javascript"></script>
-<script src="js/script.js" type="text/javascript"></script>
 </html>

@@ -9,12 +9,14 @@ $(document).ready(function(){
           $(".navbar-inverse").addClass('scroll');
           $(".navbar").addClass('scroll');
           $(".navbar-brand").addClass('scroll');
-          $(".welcome h2").addClass('scroll');
+          $("body").addClass('scroll');
+          $(".tyjow-bg").addClass('scroll');
        } else {
           $(".navbar-inverse").removeClass('scroll');
           $(".navbar").removeClass('scroll');
           $(".navbar-brand").removeClass('scroll');
-          $(".welcome h2").removeClass('scroll');
+          $("body").removeClass('scroll');
+          $(".tyjow-bg").removeClass('scroll');
        }
    });
     }
