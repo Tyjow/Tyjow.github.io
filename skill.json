@@ -1,0 +1,34 @@
+{
+   "skills":[
+      {
+         "text":"HTML5",
+         "img":"img/html5.png"
+      },
+      {
+         "text":"CSS3",
+         "img":"img/css3.png"
+      },
+      {
+         "text":"Vanilla JS",
+         "img":"img/js.png"
+      },
+      {
+         "text":"Jquery",
+         "img":"img/jquery.png"
+      },
+      {
+         "text":"Angular JS",
+         "img":"img/angular.png"
+      }
+   ],
+   "skillspress":[
+      {
+         "text":"WordPress",
+         "img":"img/wordpress.png"
+      },
+      {
+         "text":"PHP",
+         "img":"img/php.png"
+      }
+   ]
+}

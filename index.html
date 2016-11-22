@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tyjow</title>
+
+	<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+
+	<script type="text/javascript" src="lib/js/jquery.js"></script>
+	<script type="text/javascript" src="lib/js/angular.js"></script>
+	<script type="text/javascript" src="lib/js/angular-route.js"></script>
+	<script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/nav.js"></script>
+	<script type="text/javascript" src="js/service/service.js"></script>
+	<script type="text/javascript" src="js/controller/data.js"></script>
+
+</head>
+<body ng-app="app">
+
+	<div class="content">
+		<div class="col-md-12 nav-flex">
+			<div class="me">
+				<h1>Jonathan Platon</h1>
+				<h2>Développeur Front-End</h2>
+			</div>
+			<div id="cssmenu">
+				<ul>
+					<li><a href="#/home">A propos</a></li>
+					<li><a href="#/portfolio">Portfolio</a></li>
+					<li><a href="#">Jeux</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="description">
+			<h1 class="title">Développeur Front-end</h1>
+			<h2 class="info">Passionné et autodidacte</h2>
+		</div>
+		<div class="but" id="movie">
+			<button>Mettre en pause l'animation</button>
+		</div>
+	</div>
+
+	<div class="container" ng-view></div>
+	<video poster="img/bg.png" id="bgvid" playsinline autoplay muted loop>
+		<source src="media/fluidLightcore.webm" type="video/webm">
+		<source src="media/fluidLightcore.mp4" type="video/mp4">
+	</video>
+
+	<footer>
+		<div class="about">
+			<div class="first firstme">Je suis un développeur web Front-End, apprenant de la Code-academie, et auteur de plusieurs réalisation de projets professionel et personnel. Passionné, j'ai acquis de l'expérience tout au long de ma formation.
+			</div>
+			<ul class="first social">
+				<li>
+					<a href="https://github.com/Tyjow" target="_blank">
+						<i class="fa fa-github"></i>
+					</a>
+					<p>Suivez-moi sur Github</p>
+				</li>
+				<li>
+					<a href="https://fr.linkedin.com/in/jonathan-platon-309248122" target="_blank">
+						<i class="fa fa-linkedin"></i>
+					</a>
+					<p>Voir mon profil sur LinkedIn</p>
+				</li>
+			</ul>
+			<ul class="first navi">
+				<li>
+					<a href="#/home">A propos</a>
+					<p>En savoir + à propos de moi.</p>
+				</li>
+				<li>
+					<a href="#/portfolio">Portfolio</a>
+					<p>Aperçu de mes travaux.</p>
+				</li>
+				<li>
+					<a href="#">Jeux</a>
+					<p>Mes création de jeux JS.</p>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+					<p>Envoyez moi un message.</p>
+				</li>
+			</ul>
+		</div>
+		<p>Copyright by Tyjow</p>
+	</footer>
+
+</body>
+</html>
