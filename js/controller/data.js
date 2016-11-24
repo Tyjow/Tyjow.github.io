@@ -1,4 +1,4 @@
-app.controller('DataCtrl', function($scope, Comp){
+app.controller('DataCtrl', function($scope, Comp, Folio){
 
 	var vid = document.getElementById("bgvid");
 	var pauseButton = document.querySelector("#movie button");
@@ -30,5 +30,9 @@ app.controller('DataCtrl', function($scope, Comp){
 	Comp.call().then(function(value){
 		$scope.comps = value.skills;
 		$scope.compspress = value.skillspress;
+	});
+
+	Folio.call().then(function(value){
+		$scope.folios = value.folio;
 	});
 });
