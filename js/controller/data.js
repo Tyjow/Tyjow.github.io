@@ -3,6 +3,13 @@ app.controller('DataCtrl', function($scope, Comp){
 	var vid = document.getElementById("bgvid");
 	var pauseButton = document.querySelector("#movie button");
 
+	  /* play video twice as fast */
+	  document.getElementById("bgvid").defaultPlaybackRate = 2.0;
+	  document.getElementById("bgvid").play();
+
+	  /* now play three times as fast just for the heck of it */
+	  document.getElementById("bgvid").playbackRate = 0.7;
+
 	function vidFade() {
 		vid.classList.add("stopfade");
 	}
