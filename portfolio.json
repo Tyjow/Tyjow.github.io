@@ -1,0 +1,16 @@
+{
+   "folio":[
+      {
+         "title":"Challenge 1",
+         "img":"img/create-pro.png",
+         "link":"https://tyjow.github.io/Challenge_1/",
+         "linkRepo":"https://github.com/Tyjow/Challenge_1/tree/gh-pages"
+      },
+      {
+         "title":"Challenge 2",
+         "img":"img/pastime.png",
+         "link":"https://tyjow.github.io/Challenge_2/",
+         "linkRepo":"https://github.com/Tyjow/Challenge_1/tree/gh-pages"
+      }
+   ]
+}

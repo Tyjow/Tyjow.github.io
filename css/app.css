@@ -72,7 +72,8 @@ body {
 	font-size: 1.6em;
 }
 .img_projet {
-	width: 100%;
+	width: 330px;
+	height: 200px;
 }
 .core {
 	display: flex;
