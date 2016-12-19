@@ -10,7 +10,13 @@
          "title":"Challenge 2",
          "img":"img/pastime.png",
          "link":"https://tyjow.github.io/Challenge_2/",
-         "linkRepo":"https://github.com/Tyjow/Challenge_1/tree/gh-pages"
+         "linkRepo":"https://github.com/Tyjow/Challenge_2/tree/gh-pages"
+      },
+      {
+         "title":"Challenge 3",
+         "img":"img/CV.png",
+         "link":"#",
+         "linkRepo":"https://github.com/Tyjow/Challenge_3/tree/gh-pages"
       }
    ]
 }
