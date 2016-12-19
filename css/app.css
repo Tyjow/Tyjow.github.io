@@ -24,6 +24,9 @@ body {
 .custom-hov {
 	background: #333 !important;
 }
+.custom-link {
+	cursor: pointer;
+}
 .nav-flex {
 	display: flex;
 	justify-content: space-around;
