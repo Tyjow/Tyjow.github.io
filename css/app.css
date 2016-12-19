@@ -4,6 +4,11 @@ body {
 	color: #333;
 	background: #000;
 }
+.main {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
 .flex-col {
 	display: flex;
 	justify-content: space-around;
@@ -114,7 +119,7 @@ video {
 	background: rgba(0,0,0,0.3);
 	color: white;
 	padding: 2rem;
-	width: 65%;
+	width: 70%;
 	margin:2rem;
 	font-size: 1.8rem;
 	box-shadow: 1px 1px 2px #333;
@@ -142,13 +147,15 @@ video {
 	display: flex;
 	justify-content: space-around;
 }
+.bloc-text {
+	width: 35%;
+}
 .bloc { 
 	font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
 	font-weight:100; 
 	background: rgba(0,0,0,0.3);
 	color: white;
 	padding: 2rem;
-	width: 33%;
 	margin:2rem;
 	font-size: 1.8rem;
 	height: 20%;

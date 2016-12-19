@@ -23,7 +23,7 @@ app.controller('DataCtrl', function($scope, Comp, Folio){
 	});
 
 
-	pauseButton.addEventListener("click", function() {
+	/*pauseButton.addEventListener("click", function() {
 		vid.classList.toggle("stopfade");
 		if (vid.paused) {
 		vid.play();
@@ -32,7 +32,7 @@ app.controller('DataCtrl', function($scope, Comp, Folio){
 		vid.pause();
 		pauseButton.innerHTML = "Reprendre l'animation";
 		}
-	});
+	});*/
 
 	Comp.call().then(function(value){
 		$scope.comps = value.skills;
