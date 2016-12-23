@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
    	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Tyjow</title>
+	<title>Jonathan PLATON</title>
 
 	<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="lib/css/font-awesome.min.css">
@@ -19,36 +19,48 @@
 	<script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="lib/js/hover.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/hamb.js"></script>
 	<script type="text/javascript" src="js/nav.js"></script>
 	<script type="text/javascript" src="js/service/service.js"></script>
 	<script type="text/javascript" src="js/controller/data.js"></script>
+	<script type="text/javascript" src="js/filters/filters.js"></script>
 
 </head>
 <body ng-app="app">
-
-	<div class="content">
+	<div id="main">
+	<div id='hero' class="content">
 		<div class="col-md-12 nav-flex">
 			<div class="me">
 				<h1>Jonathan Platon</h1>
 				<h2>Développeur Front-End</h2>
 			</div>
-			<div id="cssmenu">
+			<div class="description">
+				<h1 class="title" data-parallax-depth="-0.1">Développeur Front-end</h1>
+				<h2 class="info" data-parallax-depth="-0.1">Autodidacte et passionné</h2>
+			</div>
+			<div id="nav-icon1">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</div>
+			<div class="menu">
 				<ul>
 					<li><a href="#/home">A propos</a></li>
 					<li><a href="#/portfolio">Portfolio</a></li>
 					<li><a href="https://tyjow.github.io/Tyjow-Games/">Jeux</a></li>
 					<li><a href="mailto:platon.jonathan@gmail.com">Contact</a></li>
 				</ul>
-			</div>
+			</div>		
 		</div>
+		<div class="layer-1" data-parallax-depth="-0.1"><img src="img/html5.png"></div>
+		<div class="layer-2" data-parallax-depth="0.4"><img src="img/css3.png"></div>
+		<div class="layer-3" data-parallax-depth="0.1"><img src="img/js.png"></div>
+		<div class="layer-4" data-parallax-depth="0.3"><img src="img/jquery.png"></div>
+		<div class="layer-5" data-parallax-depth="0.2"><img src="img/angular.png"></div>
 	</div>
 		
 
 	<div class="container main" ng-view></div>
-	<video poster="img/bg.png" id="bgvid" playsinline autoplay muted loop>
-		<source src="media/fluidLightcore.webm" type="video/webm">
-		<source src="media/fluidLightcore.mp4" type="video/mp4">
-	</video>
 
 	<footer>
 		<div class="about">
@@ -89,6 +101,7 @@
 		</div>
 		<p>Copyright by Tyjow</p>
 	</footer>
-
+	</div>
+	<script type="text/javascript" src="js/paralayer.js"></script>
 </body>
 </html>

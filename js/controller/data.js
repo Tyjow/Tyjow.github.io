@@ -1,26 +1,26 @@
 app.controller('DataCtrl', function($scope, Comp, Folio){
-
-	var vid = document.getElementById("bgvid");
-	var pauseButton = document.querySelector("#movie button");
+	
+	/*var vid = document.getElementById("bgvid");
+	var pauseButton = document.querySelector("#movie button");*/
 
 	  /* play video twice as fast */
-	  document.getElementById("bgvid").defaultPlaybackRate = 2.0;
-	  document.getElementById("bgvid").play();
+	  /*document.getElementById("bgvid").defaultPlaybackRate = 2.0;
+	  document.getElementById("bgvid").play();*/
 
 	  /* now play three times as fast just for the heck of it */
-	  document.getElementById("bgvid").playbackRate = 0.7;
+	  //document.getElementById("bgvid").playbackRate = 0.7;
 
-	function vidFade() {
+	/*function vidFade() {
 		vid.classList.add("stopfade");
-	}
+	}*/
 
-	vid.addEventListener('ended', function()
+	/*vid.addEventListener('ended', function()
 	{
 		// only functional if "loop" is removed 
 		vid.pause();
 		// to capture IE10
 		vidFade();
-	});
+	});*/
 
 
 	/*pauseButton.addEventListener("click", function() {
@@ -33,6 +33,9 @@ app.controller('DataCtrl', function($scope, Comp, Folio){
 		pauseButton.innerHTML = "Reprendre l'animation";
 		}
 	});*/
+
+	// set the background color for row in ng-repeat
+	$scope.colors = ['#fff','#000', '#333', '#392640', '#fff', '#000']
 
 	Comp.call().then(function(value){
 		$scope.comps = value.skills;

@@ -1,25 +1,23 @@
-<div class="content">
-	<div class="description">
-		<h1 class="title">Mes créations</h1>
-		<h2 class="info">Passionné et autodidacte</h2>
-	</div>
-	<!-- <div class="but" id="movie">
-		<button>Mettre en pause l'animation</button>
-	</div> -->
-</div>
-
 <div class="core container">
 	
-	<div ng-repeat="folio in folios" class="bloc">
-		<div class="custom-link pad-o b-link-flow b-animate-go b-opacity-90" href="#">
-			<div class="b-line-group">
-				<div class="custom-hov b-top-line"></div>
-			</div>
-			<img class="img_projet" src="{{folio.img}}"/>
-			<div class="flex-col b-wrapper">
-				<h2 class="b-scale b-animate b-delay03">{{folio.title}}</h2>
-				<p class="b-scale b-animate b-delay03 but-link" href="#"><a href="{{folio.link}}" target="_blank"><i class="fa fa-search"></i><span>Aperçu</span></a></p>
-				<p class="b-scale b-animate b-delay03 but-link" href="#"><a href="{{folio.linkRepo}}" target="_blank"><i class="fa fa-github"></i><span>Github</span></a></p>
+	<div class="bloc">
+		<div class="row">
+			<div class="col-md-4 pad-o" ng-repeat="folio in folios">
+				<div class="custom-link pad-o b-link-flow b-animate-go b-opacity-50" href="#" ng-style="{'background-color': colors[$index]}">
+					<div class="b-line-group">
+						<div class="custom-hov b-top-line"></div>
+					</div>
+					<img class="img_projet" src="{{folio.img}}"/>
+					<div class="flex-col b-wrapper">
+						<!-- <h2 class="b-scale b-animate b-delay03">{{folio.title}}</h2> -->
+						<p class="b-scale b-animate b-delay03 but-link" href="#"><a href="{{folio.link}}" target="_blank"><i class="fa fa-search"></i><span>Aperçu</span></a></p>
+						<p class="b-scale b-animate b-delay03 but-link" href="#"><a href="{{folio.linkRepo}}" target="_blank"><i class="fa fa-github"></i><span>Github</span></a></p>
+						<div class="bar-comp">
+							<h4>{{folio.techno}}</h4>
+						</div>
+					</div>
+					<div class="b-top-line"></div>
+				</div>
 			</div>
 		</div>
 	</div>

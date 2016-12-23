@@ -68,8 +68,9 @@
   visibility:hidden; /* lt-ie9 */
 }
 
+/** color hover used for the website (old color #291444)**/
 .b-link-flow .b-top-line{
-  background: #74c9be;
+  background: transparent;
 }
 
 .b-link-flow .b-wrapper, .b-link-flow .b-top-line{

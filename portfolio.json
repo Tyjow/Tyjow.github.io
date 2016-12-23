@@ -2,21 +2,45 @@
    "folio":[
       {
          "title":"Challenge 1",
+         "techno":"html, css",
          "img":"img/create-pro.png",
          "link":"https://tyjow.github.io/Challenge_1/",
          "linkRepo":"https://github.com/Tyjow/Challenge_1/tree/gh-pages"
       },
       {
          "title":"Challenge 2",
+         "techno":"html, css",
          "img":"img/pastime.png",
          "link":"https://tyjow.github.io/Challenge_2/",
          "linkRepo":"https://github.com/Tyjow/Challenge_2/tree/gh-pages"
       },
       {
          "title":"Challenge 3",
+         "techno":"xml, xslt, css, js",
          "img":"img/CV.png",
-         "link":"#",
+         "link":"http://tyjow.github.io/Challenge_3/Cv.xml",
          "linkRepo":"https://github.com/Tyjow/Challenge_3/tree/gh-pages"
+      },
+      {
+         "title":"Challenge 4",
+         "techno":"html, css, bootstrap, js",
+         "img":"img/challenge4.png",
+         "link":"http://tyjow.github.io/Challenge_4/",
+         "linkRepo":"https://github.com/Tyjow/Challenge_4/tree/gh-pages"
+      },
+      {
+         "title":"Challenge 5",
+         "techno":"html, css, bootstrap, responsive",
+         "img":"img/challenge5.png",
+         "link":"http://tyjow.github.io/Challenge_5/",
+         "linkRepo":"https://github.com/Tyjow/Challenge_5/tree/gh-pages"
+      },
+      {
+         "title":"Challenge 6",
+         "techno":"html, css, js",
+         "img":"img/challenge6.png",
+         "link":"http://tyjow.github.io/Challenge_6/",
+         "linkRepo":"https://github.com/Tyjow/Challenge_6/tree/gh-pages"
       }
    ]
 }
