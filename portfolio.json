@@ -41,6 +41,13 @@
          "img":"img/challenge6.png",
          "link":"http://tyjow.github.io/Challenge_6/",
          "linkRepo":"https://github.com/Tyjow/Challenge_6/tree/gh-pages"
+      },
+      {
+         "title":"Projet 1",
+         "techno":"Angular js, html, css, js",
+         "img":"img/toto.png",
+         "link":"#",
+         "linkRepo":"https://github.com/Tyjow/Angular-Project"
       }
    ]
 }

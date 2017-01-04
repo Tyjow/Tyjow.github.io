@@ -3,15 +3,17 @@
 	<h2 class="text-center">Portfolio</h2>
 	<div class="bloc">
 		<div class="row">
-			<div class="col-md-4 pad-o" ng-repeat="folio in folios">
+			<div class="col-md-4 pad-o" ng-repeat="folio in folios | reverse">
 				<div class="custom-link pad-o b-link-flow b-animate-go b-opacity-50" href="#" ng-style="{'background-color': colors[$index]}">
 					<div class="b-line-group">
 						<div class="custom-hov b-top-line"></div>
 					</div>
-					<img class="img_projet" src="{{folio.img}}"/>
+					<img class="img_projet" src="{{folio.img}}" alt="Pas d'image" />
 					<div class="flex-col b-wrapper">
 						<!-- <h2 class="b-scale b-animate b-delay03">{{folio.title}}</h2> -->
-						<p class="b-scale b-animate b-delay03 but-link" href="#"><a href="{{folio.link}}" target="_blank"><i class="fa fa-search"></i><span>Aperçu</span></a></p>
+						<p class="b-scale b-animate b-delay03 but-link" href="#">
+							<a href="{{folio.link}}" target="_blank"><i class="fa fa-search"></i><span>Aperçu</span></a>
+						</p>
 						<p class="b-scale b-animate b-delay03 but-link" href="#"><a href="{{folio.linkRepo}}" target="_blank"><i class="fa fa-github"></i><span>Github</span></a></p>
 						<div class="bar-comp">
 							<h4>{{folio.techno}}</h4>
