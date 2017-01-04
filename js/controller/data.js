@@ -35,7 +35,7 @@ app.controller('DataCtrl', function($scope, Comp, Folio){
 	});*/
 
 	// set the background color for row in ng-repeat
-	$scope.colors = ['#fff','#000', '#333', '#392640', '#fff', '#000']
+	$scope.colors = ['#fff','#000', '#333', '#392640', '#fff', '#000', '#fff', '#333', '#392640']
 
 	Comp.call().then(function(value){
 		$scope.comps = value.skills;

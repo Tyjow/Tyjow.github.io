@@ -48,6 +48,13 @@
          "img":"img/angular-count.png",
          "link":"img/angular-count.png",
          "linkRepo":"https://github.com/Tyjow/Angular-Project"
+      },
+      {
+         "title":"Projet 2",
+         "techno":"Angular js, css, js, php, sql",
+         "img":"img/panel.png",
+         "link":"img/panel.png",
+         "linkRepo":"https://github.com/Tyjow/Panel-tyjow"
       }
    ]
 }
