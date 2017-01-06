@@ -29,6 +29,10 @@
       {
          "text":"PHP",
          "img":"img/php.png"
+      },
+      {
+         "text":"Node JS",
+         "img":"img/node.png"
       }
    ]
 }
