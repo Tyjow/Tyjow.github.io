@@ -1,0 +1,20 @@
+{
+   "menu":[
+      {
+         "link":"#/home",
+         "title":"A propos"
+      },
+      {
+         "link":"#/portfolio",
+         "title":"Portfolio"
+      },
+      {
+         "link":"https://tyjow.github.io/Tyjow-Games/",
+         "title":"Jeux"
+      },
+      {
+         "link":"mailto:platon.jonathan@gmail.com",
+         "title":"Contact"
+      }
+   ]
+}

@@ -34,6 +34,15 @@ app.controller('DataCtrl', function($scope, Comp, Folio){
 		}
 	});*/
 
+	/*$li = $('.menu li');
+	$a = $('.menu a');
+
+	$a.on('click', function(e){
+		e.preventDefault();
+		$li.removeClass('current');
+		$(this).parent().addClass('current');
+	});*/
+
 	// set the background color for row in ng-repeat
 	$scope.colors = ['#fff','#000', '#333', '#392640', '#fff', '#000', '#fff', '#333', '#392640']
 
@@ -44,5 +53,17 @@ app.controller('DataCtrl', function($scope, Comp, Folio){
 
 	Folio.call().then(function(value){
 		$scope.folios = value.folio;
+	});
+
+});
+
+app.controller('MainCtrl', function($scope, Menu){
+
+	$scope.states = {};
+    $scope.states.activeItem = 'Portfolio';
+
+	Menu.call().then(function(value){
+		$scope.menus = value.menu;
+		console.log($scope.menus);
 	});
 });
