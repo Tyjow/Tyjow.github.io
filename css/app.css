@@ -60,9 +60,10 @@ body {
 .nav-flex {
 	display: flex;
 	justify-content: space-around;
+	padding-left: 4em;
 }
 .me {
-	width: 25%;
+	width: 30%;
 	height: 20%;
 }
 .me > h1 {
