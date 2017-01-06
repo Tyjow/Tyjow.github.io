@@ -140,6 +140,8 @@ video {
 	padding: 2rem;
 	width: 70%;
 	margin:2rem;
+	margin-right: auto;
+	margin-left: auto;
 	font-size: 1.8rem;
 }
 .bloc-comp > h2 {
