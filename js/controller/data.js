@@ -64,6 +64,5 @@ app.controller('MainCtrl', function($scope, Menu){
 
 	Menu.call().then(function(value){
 		$scope.menus = value.menu;
-		console.log($scope.menus);
 	});
 });

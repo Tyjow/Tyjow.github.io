@@ -50,13 +50,15 @@
 			</div>
 			<div class="menu">
 				<ul>
-					<li ng-repeat="menu in menus" class="item" ng-class="{'current': menu.title == states.activeItem}" ng-click="states.activeItem=menu.title">
+					<li ng-repeat="menu in menus" class="item" ng-class="{'current': menu.title == states.activeItem, shin: $index == 3}" ng-click="states.activeItem=menu.title">
 						<a href="{{menu.link}}">{{menu.title}}</a>
 					</li>
 				</ul>
 				<ul>
 					<li><a href="https://github.com/Tyjow" target="_blank"><i class="fa fa-github"></i> Github</a></li>
 					<li><a href="https://fr.linkedin.com/in/jonathan-platon-309248122" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+					<li><a href="http://tyjow.github.io/Challenge_3/Cv.xml" target="_blank"><i class="fa fa-external-link"></i>
+ Mon CV</a></li>
 				</ul>
 			</div>		
 		</div>
