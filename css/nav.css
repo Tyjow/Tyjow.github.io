@@ -1,5 +1,6 @@
 .menu {
    background: #202024 repeat left top; /* This pattern is downloaded from www.subtlepatterns.com */
+  top: 0;
   left: -250px;
   height: 100%;
   position: fixed;
@@ -8,6 +9,7 @@
 }
 .menu.ouvert {
     background: #202024 repeat left top; /* This pattern is downloaded from www.subtlepatterns.com */
+  top: 0;
   left: 0;
   height: 100%;
   position: fixed;

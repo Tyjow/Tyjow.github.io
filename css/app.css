@@ -58,13 +58,11 @@ body {
 	padding-bottom: 3rem;
 }
 .nav-flex {
-	display: flex;
-	justify-content: space-around;
 	padding-left: 4em;
 }
-.me {
-	width: 30%;
-	height: 20%;
+.head-nav {
+	display: flex;
+	justify-content: space-between;
 }
 .me > h1 {
 	font-size: 17px;
@@ -82,19 +80,16 @@ body {
 	color: #fff;
 }
 .description {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
 	padding: 5em 5em 0 5em;
 }
 .title {
 	color: #fff;
 	font-size: 4em;
+	text-align: center;
 }
 .info {
 	font-size: 1.6em;
+	text-align: center;
 }
 .img_projet {
 	width: 150px;
@@ -339,19 +334,20 @@ footer > p {
 /* Icon hamb */
 
 #nav-icon1 {
-  width: 40px;
-  height: 25px;
-  position: relative;
-  margin: 10px auto;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
+	width: 40px;
+	height: 25px;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	cursor: pointer;
 }
 #nav-icon1:hover span{
 	background-color: #ff9933;
