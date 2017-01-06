@@ -297,6 +297,7 @@ a:hover{
 }
 .social li a:hover {
 	color: #ff9933 !important;
+	text-decoration: none;
 }
 .social li a:focus {
 	color: #ff9933 !important;
