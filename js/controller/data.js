@@ -33,15 +33,10 @@ app.controller('DataCtrl', function($scope, Comp, Folio){
 		pauseButton.innerHTML = "Reprendre l'animation";
 		}
 	});*/
-
-	/*$li = $('.menu li');
-	$a = $('.menu a');
-
-	$a.on('click', function(e){
-		e.preventDefault();
-		$li.removeClass('current');
-		$(this).parent().addClass('current');
-	});*/
+	
+	$scope.templates =
+    [{ name: 'template1.html', url: 'https://tyjow.github.io/Tyjow-Games/'}];
+  	$scope.template = $scope.templates[0];
 
 	// set the background color for row in ng-repeat
 	$scope.colors = ['#fff','#000', '#333', '#392640', '#fff', '#000', '#fff', '#333', '#392640']

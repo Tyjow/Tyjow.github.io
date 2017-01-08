@@ -9,3 +9,9 @@ app.filter('reverse', function() {
     return items.slice().reverse();
   };
 });
+
+app.filter('trusted', ['$sce', function ($sce) {
+    return function(url) {
+        return $sce.trustAsResourceUrl(url);
+    };
+}]);
