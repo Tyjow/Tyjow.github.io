@@ -124,7 +124,7 @@
   display: inline-block;
 }
 .shin:after {
-  animation: shine 6s ease-in-out infinite;
+  animation: shine 5s ease-in-out infinite;
   animation-fill-mode: forwards;
   content: "";
   position: absolute;
@@ -154,7 +154,7 @@
     transition-duration: 0.7s, 0.7s, 0.15s;
     transition-timing-function: ease;
   }
-  20%, 100% {
+  30%, 100% {
     opacity: 0;
     top: 0%;
     left: 60%;
