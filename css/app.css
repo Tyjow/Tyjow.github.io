@@ -289,11 +289,11 @@ a:hover{
 	padding: 0 5rem 0 5rem;
 	margin:0 5rem 0 5rem;
 }
-.social li {
+.soc li {
 	list-style: none;
 	display: flex;
 }
-.social li a .fa {
+.soc li a .fa {
 	display: inline-block;
 	vertical-align: top;
 	margin: 0 auto;
@@ -301,14 +301,14 @@ a:hover{
 	font-size: 2em;
 	text-align: center;
 }
-.social li a .fa:hover {
+.soc li a .fa:hover {
 	color: #ff9933 !important;
 }
-.social li a:hover {
+.soc li a:hover {
 	color: #ff9933 !important;
 	text-decoration: none;
 }
-.social li a:focus {
+.soc li a:focus {
 	color: #ff9933 !important;
 }
 .navi li {
@@ -433,6 +433,7 @@ footer > p {
 }
 .layer-1 img {
 	opacity: 0.2;
+	filter: grayscale(100%);
 }
 .layer-2 {
 	z-index: -1;
@@ -444,6 +445,7 @@ footer > p {
 .layer-2 img {
 	width: 60%;
 	opacity: 0.2;
+	filter: grayscale(100%);
 }
 .layer-3 {
 	z-index: -1;
@@ -455,6 +457,7 @@ footer > p {
 .layer-3 img {
 	width: 65%;
 	opacity: 0.2;
+	filter: grayscale(100%);
 }
 .layer-4 {
 	z-index: 1;
@@ -466,6 +469,7 @@ footer > p {
 .layer-4 img {
 	width: 75%;
 	opacity: 0.3;
+	filter: grayscale(100%);
 }
 .layer-5 {
 	z-index: -1;
@@ -476,6 +480,7 @@ footer > p {
 }
 .layer-5 img {
 	opacity: 0.2;
+	filter: grayscale(100%);
 }
 
 .text-folio {
