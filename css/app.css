@@ -2,7 +2,7 @@ body {
 	width: 100%;
 	margin: 0;
 	color: #333;
-	background: #291444;
+	background: #111;
 	transition: margin-left .5s;
 }
 #main {
@@ -221,7 +221,7 @@ h1 {
 	border: none; 
 	margin: 3rem 1rem 1rem 1rem;
 	font-size: 1.7rem;
-	background: #291444;
+	background: #111;
 	color: #fff;
 	border-radius: 5px; 
 	cursor: pointer;
@@ -229,14 +229,14 @@ h1 {
 }
 .but-link a:hover {
 	background: rgba(0,0,0,0.8);
-	color: #ff9933;
+	color: #F4C031;
 	text-decoration: none;
 }
 .but-link a:hover i {
-	color: #ff9933;
+	color: #F4C031;
 }
 .but-link a:hover span {
-	color: #ff9933;
+	color: #F4C031;
 }
 .but button { 
 	display: block;
@@ -303,14 +303,14 @@ a:hover{
 	text-align: center;
 }
 .soc li a .fa:hover {
-	color: #ff9933 !important;
+	color: #F4C031 !important;
 }
 .soc li a:hover {
-	color: #ff9933 !important;
+	color: #F4C031 !important;
 	text-decoration: none;
 }
 .soc li a:focus {
-	color: #ff9933 !important;
+	color: #F4C031 !important;
 }
 .navi li {
 	list-style: none;
@@ -324,10 +324,10 @@ a:hover{
 	font-size: 0.9em;
 }
 .navi li a:hover {
-	color: #ff9933 !important;
+	color: #F4C031 !important;
 }
 .navi li a:focus {
-	color: #ff9933 !important;
+	color: #F4C031 !important;
 }
 .navi p {
 	color: #ccc;
@@ -338,7 +338,7 @@ footer {
     bottom: 0;
     display: inline-block;
     width: 100%;
-	background-color: #291444;
+	background-color: #111;
 	box-shadow: 0 -5px 5px -5px #000;
 }
 footer > p {
@@ -366,7 +366,7 @@ footer > p {
 	cursor: pointer;
 }
 #nav-icon1:hover span{
-	background-color: #ff9933;
+	background-color: #F4C031;
 }
 
 #nav-icon1 span {
