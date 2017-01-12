@@ -55,6 +55,13 @@
          "img":"img/panel.png",
          "link":"img/panel.png",
          "linkRepo":"https://github.com/Tyjow/Panel-tyjow"
+      },
+      {
+         "title":"Projet Fedala",
+         "techno":"wordpress, css, js, jquery, php, sql",
+         "img":"img/fedal.png",
+         "link":"https://www.fedala-deco-traiteur.fr",
+         "linkRepo":"https://github.com/vv221/wordpress-fedala"
       }
    ]
 }
