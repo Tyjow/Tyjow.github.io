@@ -349,7 +349,7 @@ footer > p {
 /* Icon hamb */
 
 #nav-icon1 {
-	width: 40px;
+	width: 35px;
 	height: 25px;
 	position: relative;
 	margin-top: 10px;
@@ -386,7 +386,16 @@ footer > p {
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
 }
-
+.menu-burger {
+	display: flex;
+	justify-content: space-around;
+	width: 10em;
+}
+.menu-burger h4 {
+	font-size: 1.85em;
+	margin-top: 7px;
+	text-transform: uppercase;
+}
 #nav-icon1 span:nth-child(1) {
   top: 0px;
 }
