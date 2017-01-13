@@ -1,0 +1,36 @@
+<div class="core container">
+	
+    <div class="container">
+       <div class="center-contact col-md-6 col-md-offset-3">
+          <!-- PAGE TITLE -->
+          <div class="page-header">
+             <h1><span class="glyphicon glyphicon-tower" style="font-size:20px"></span><span style="font-size:20px; margin-left:10px;">Contactez moi</span></h1>
+          </div>
+          <!-- SHOW ERROR/SUCCESS MESSAGES -->
+          <div id="messages" class="well" ng-show="message">{{message}}</div>
+          <!-- FORM -->
+          <form ng-submit="processForm()">
+             <!-- NAME -->
+             <div id="name-group" class="form-group" ng-class="{ 'has-error' : errorName }">
+                <label>Nom</label>
+                <input type="text" name="name" class="form-control" placeholder="Entrez votre nom.." ng-model="formData.name">
+                <span class="help-block" ng-show="errorName"></span>
+             </div>
+             <div id="superhero-group" class="form-group" ng-class="{ 'has-error' : errorSuperhero }">
+                <label>Email</label>
+                <input type="email" name="superheroAlias" class="form-control" placeholder="Entrez votre adresse email.." ng-model="formData.superheroAlias">
+                <span class="help-block" ng-show="errorSuperhero"></span>
+             </div>
+             <div id="content-group" class="form-group" ng-class="{ 'has-error' : errorContent }">
+                <label>Message</label>
+                <textarea  rows="5" cols="50" class="form-control" placeholder="Entrez votre message.." ng-model="formData.content"></textarea>
+                <span class="help-block" ng-show="errorContent"></span>
+             </div>
+             <button type="submit" class="btn btn-success btn-lg btn-block">
+             <span class="glyphicon glyphicon-flash"></span> Envoyez !
+             </button>
+          </form>
+       </div>
+    </div>
+
+</div>
