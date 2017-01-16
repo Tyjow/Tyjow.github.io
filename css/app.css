@@ -2,8 +2,12 @@ body {
 	width: 100%;
 	margin: 0;
 	color: #333;
-	background: #111;
+	/*background: #111;*/
+	background-image: url('../img/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 	transition: margin-left .5s;
+	overflow-y: hidden;
 }
 #main {
 	transition: margin-left .5s;
@@ -49,6 +53,7 @@ body {
 	padding: 1em;
 	color: #fff;
 	margin: 0;
+	font-size: 0.8em;
 }
 .custom-link .img_projet {
 	display: block;
@@ -85,7 +90,7 @@ body {
 }
 .title {
 	color: #fff;
-	font-size: 4em;
+	font-size: 3.5em;
 	text-align: center;
 }
 .info {
@@ -107,10 +112,14 @@ body {
 	padding: 0;
 	box-shadow: 0 -5px 5px -5px #000;
 }
+.core-home {
+	background-color: #fff;
+}
 .core-game {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	margin-top: 4em;
 	background-color: #fff;
 	padding: 0;
@@ -146,14 +155,19 @@ video {
 	opacity: .5;
 }
 .bloc-comp { 
-	font-family: sans-serif;
-	font-weight:100; 
+	font-family: PT sans, sans-serif;
+	font-weight:400; 
 	padding: 2rem;
 	width: 70%;
 	margin:2rem;
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 1.8rem;
+}
+.bloc-comp p {
+	color: #666;
+	font-size: 0.9em;
+	margin: 1rem 0 1rem 0;
 }
 .bloc-comp > h2 {
 	padding: 0.5rem;
@@ -174,12 +188,46 @@ video {
 	justify-content: space-around;
 }
 .bloc-text {
-	width: 35%;
+	width: 30% !important;
+	margin: 2rem !important;
+	padding: 2rem !important;
+	flex-direction: column;
+}
+.bloc-text p {
+	color: #666;
+	margin: 1em 0 1em 0;
+}
+.bloc-text h2 {
+	font-size: 1.5em;
+}
+.bot-zero {
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+.butt-info {
+	justify-content: space-around !important;
+}
+.butt-info p a {
+	color: #fff;
+	font-weight: 600;
+	font-size: 1em;
+	font-family: lato, sans-serif;
+	background-color: #F4C031;
+	border-color: #F4C031 !important;
+	border: 5px solid;
+	padding: 0.4em 1.5em 0.4em 1.5em;
+	border-radius: 0.2em;
+	text-decoration: none;
+}
+.butt-info p a:hover {
+	color: #F4C031;
+	background-color: #fff;
+	border-color: #F4C031;
 }
 .bloc {
 	width: 100%;
-	font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-	font-weight:100;
+	font-family: PT sans, sans-serif;
+	font-weight:400;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	padding-top: 2rem;
@@ -220,7 +268,7 @@ h1 {
 	padding: .4rem;
 	border: none; 
 	margin: 3rem 1rem 1rem 1rem;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 	background: #111;
 	color: #fff;
 	border-radius: 5px; 
@@ -279,6 +327,7 @@ a:hover{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	margin: 1em 0em 1em 0;
 }
 .first {
 	color: #fff;
@@ -338,13 +387,17 @@ footer {
     bottom: 0;
     display: inline-block;
     width: 100%;
-	background-color: #111;
+	background-color: transparent;
 	box-shadow: 0 -5px 5px -5px #000;
 }
 footer > p {
 	margin: 0;
 	text-align: center;
+	background-color: #111;
 	color: #fff;
+	padding: 1em;
+	box-shadow: 0 -2px 2px -3px #fff;
+	margin-top: 1em;
 }
 
 /* Icon hamb */
@@ -501,7 +554,9 @@ footer > p {
 	font-size: 1.5em;
 	white-space: nowrap;
 	overflow: hidden;
-	width: 31em;
+	width: 35em;
+	font-style: italic;
+	font-family: serif;
 	animation: type 4s steps(60, end);
 }
 
@@ -513,9 +568,9 @@ footer > p {
   text-decoration: none;
 }
 
-/*span{
+.text-folio span{
   animation: blink 1s infinite;
-}*/
+}
 
 @keyframes type{ 
   from { width: 0; } 
@@ -527,9 +582,9 @@ footer > p {
   100%{ width: 100; } 
 } */
 
-/*@keyframes blink{
+@keyframes blink{
   to{opacity: .0;}
-}*/
+}
 
 .content-info {
 	font-family: sans-serif;

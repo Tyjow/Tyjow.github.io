@@ -1,0 +1,26 @@
+<div class="core-game container">
+	
+	<div class="bloc bloc-text">
+		<h2>Besoin d'un développeur web ?</h2>
+		<p>Ne cherchez plus ! Apprenant de la Code-academie, et auteur de plusieurs réalisation de projets professionel et personnel. Passionné, j'ai acquis de l'expérience tout au long de ma formation.</p>
+	</div>
+
+	<div class="bloc-comp text-left">
+		<h2 class="text-center">Mes compétences</h2>
+		<h3 class="text-center">Front-End</h3>
+		<div class="skill">
+			<div ng-repeat="comp in comps" class="logo">
+				<img src="{{comp.img}}"/>
+				<p>{{comp.text}}</p>
+			</div>
+		</div>
+		<h3 class="text-center">Back-End</h3>
+		<div class="skill">
+			<div ng-repeat="comppress in compspress" class="logo">
+				<img src="{{comppress.img}}"/>
+				<p>{{comppress.text}}</p>
+			</div>
+		</div>
+	</div>
+
+</div>

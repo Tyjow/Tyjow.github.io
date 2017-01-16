@@ -2,6 +2,10 @@
    "menu":[
       {
          "link":"#/home",
+         "title":"Accueil"
+      },
+      {
+         "link":"#/about",
          "title":"A propos"
       },
       {

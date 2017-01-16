@@ -85,7 +85,7 @@ app.controller('DataCtrl', function($scope, Comp, Folio, $http){
 app.controller('MainCtrl', function($scope, Menu){
 
 	$scope.states = {};
-    $scope.states.activeItem = 'A propos';
+    $scope.states.activeItem = 'Accueil';
 
 	Menu.call().then(function(value){
 		$scope.menus = value.menu;

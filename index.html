@@ -5,7 +5,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
    	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Jonathan PLATON</title>
+	<title>Jonathan Platon</title>
+	<link rel="icon" type="image/png" href="img/ico-moi.png">
 
 	<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="lib/css/font-awesome.min.css">
@@ -13,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/app.css">
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/loader.css">
 
 	<script type="text/javascript" src="lib/js/jquery.js"></script>
 	<script type="text/javascript" src="lib/js/angular.js"></script>
@@ -27,6 +29,14 @@
 
 </head>
 <body ng-app="app" ng-controller="MainCtrl">
+
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+
+		<div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+	</div>
+
 	<div id="main">
 	<div id='hero' class="content">
 		<div class="row">
@@ -34,7 +44,7 @@
 			<div class="head-nav">
 				<div class="me">
 					<h1>Jonathan Platon</h1>
-					<h2>Développeur Front-End</h2>
+					<h2>Développeur Web</h2>
 				</div>
 				<div class="menu-burger">
 					<h4>Menu</h4>
@@ -47,13 +57,13 @@
 			</div>
 			<div class="description">
 				<div class="row">
-					<h1 class="title">Développeur Front-end</h1>
+					<h1 class="title">Développeur Web</h1>
 					<h2 class="info">Autodidacte et passionné</h2>
 				</div>
 			</div>
 			<div class="menu">
 				<ul>
-					<li ng-repeat="menu in menus" class="item" ng-class="{'current': menu.title == states.activeItem, shin: $index == 3}" ng-click="states.activeItem=menu.title">
+					<li ng-repeat="menu in menus" class="item" ng-class="{'current': menu.title == states.activeItem, shin: $index == 4}" ng-click="states.activeItem=menu.title">
 						<a href="{{menu.link}}">{{menu.title}}</a>
 					</li>
 				</ul>
@@ -93,7 +103,7 @@
 
 	<footer>
 		<div class="about">
-			<div class="first firstme">Je suis un développeur web Front-End, apprenant de la Code Académie, et auteur de plusieurs réalisation de projets professionels et personnels. Passionné, j'ai acquis de l'expérience tout au long de ma formation.
+			<div class="first firstme">Je suis un développeur Web, apprenant de la Code Académie, et auteur de plusieurs réalisation de projets professionels et personnels. Passionné, j'ai acquis de l'expérience tout au long de ma formation.
 			</div>
 			<ul class="first soc">
 				<li>
@@ -107,24 +117,6 @@
 						<i class="fa fa-linkedin"></i>
 					</a>
 					<p>Voir mon profil sur<a href="https://fr.linkedin.com/in/jonathan-platon-309248122" target="_blank">LinkedIn</a></p>
-				</li>
-			</ul>
-			<ul class="first navi">
-				<li>
-					<a href="#/home">A propos</a>
-					<p>En savoir + à propos de moi.</p>
-				</li>
-				<li>
-					<a href="#/portfolio">Portfolio</a>
-					<p>Aperçu de mes travaux.</p>
-				</li>
-				<li>
-					<a href="#/game">Jeux</a>
-					<p>Mes création de jeux JS.</p>
-				</li>
-				<li>
-					<a href="mailto:platon.jonathan@gmail.com">Contact</a>
-					<p>Envoyez moi un message.</p>
 				</li>
 			</ul>
 		</div>
