@@ -212,17 +212,17 @@ video {
 	font-weight: 600;
 	font-size: 1em;
 	font-family: lato, sans-serif;
-	background-color: #F4C031;
-	border-color: #F4C031 !important;
+	background-color: #00cc66;
+	border-color: #00cc66 !important;
 	border: 5px solid;
 	padding: 0.4em 1.5em 0.4em 1.5em;
 	border-radius: 0.2em;
 	text-decoration: none;
 }
 .butt-info p a:hover {
-	color: #F4C031;
+	color: #00cc66;
 	background-color: #fff;
-	border-color: #F4C031;
+	border-color: #00cc66;
 }
 .bloc {
 	width: 100%;
@@ -277,14 +277,14 @@ h1 {
 }
 .but-link a:hover {
 	background: rgba(0,0,0,0.8);
-	color: #F4C031;
+	color: #00cc66;
 	text-decoration: none;
 }
 .but-link a:hover i {
-	color: #F4C031;
+	color: #00cc66;
 }
 .but-link a:hover span {
-	color: #F4C031;
+	color: #00cc66;
 }
 .but button { 
 	display: block;
@@ -352,14 +352,14 @@ a:hover{
 	text-align: center;
 }
 .soc li a .fa:hover {
-	color: #F4C031 !important;
+	color: #00cc66 !important;
 }
 .soc li a:hover {
-	color: #F4C031 !important;
+	color: #00cc66 !important;
 	text-decoration: none;
 }
 .soc li a:focus {
-	color: #F4C031 !important;
+	color: #00cc66 !important;
 }
 .navi li {
 	list-style: none;
@@ -373,10 +373,10 @@ a:hover{
 	font-size: 0.9em;
 }
 .navi li a:hover {
-	color: #F4C031 !important;
+	color: #00cc66 !important;
 }
 .navi li a:focus {
-	color: #F4C031 !important;
+	color: #00cc66 !important;
 }
 .navi p {
 	color: #ccc;
@@ -422,7 +422,7 @@ footer img {
 	cursor: pointer;
 }
 #nav-icon1:hover span{
-	background-color: #F4C031;
+	background-color: #00cc66;
 }
 
 #nav-icon1 span {
