@@ -11,7 +11,17 @@ body {
 	height: auto;
 	position: relative;
 }
-canvas{position:absolute;top:0;/*left:0;*/z-index: -1002;width: 100%;height: 100%;}
+canvas {
+	position:absolute;
+	top:0;
+	z-index: -1002;
+	width: 100%;
+	height: 100%;
+	/*background: -webkit-linear-gradient(#00111e 30%, #033d5e);
+    background: -moz-linear-gradient(#00111e 30%, #033d5e);
+    background: -o-linear-gradient(#00111e 30%, #033d5e);
+    background: linear-gradient(#00111e 30%, #033d5e);*/
+}
 #main {
 	transition: margin-left .5s;
 }
@@ -113,7 +123,7 @@ canvas{position:absolute;top:0;/*left:0;*/z-index: -1002;width: 100%;height: 100
 	margin-top: 4em;
 	background-color: #fff;
 	padding: 0;
-	box-shadow: 0 -5px 5px -5px #000;
+	box-shadow: 0 -5px 5px -5px #222;
 }
 .core-home {
 	background-color: #fff;
@@ -126,7 +136,7 @@ canvas{position:absolute;top:0;/*left:0;*/z-index: -1002;width: 100%;height: 100
 	margin-top: 4em;
 	background-color: #fff;
 	padding: 0;
-	box-shadow: 0 -5px 5px -5px #000;
+	box-shadow: 0 -5px 5px -5px #222;
 }
 
 .logo {
@@ -215,17 +225,19 @@ video {
 	font-weight: 600;
 	font-size: 1em;
 	font-family: lato, sans-serif;
-	background-color: #00cc66;
-	border-color: #00cc66 !important;
-	border: 5px solid;
+	background-color: #27888b;
+	border-color: #27888b !important;
+	border: 3px solid;
 	padding: 0.4em 1.5em 0.4em 1.5em;
 	border-radius: 0.2em;
 	text-decoration: none;
+	transition: all 0.5s;
 }
 .butt-info p a:hover {
-	color: #00cc66;
+	color: #27888b;
 	background-color: #fff;
-	border-color: #00cc66;
+	border-color: #27888b;
+	transition: all 0.5s;
 }
 .bloc {
 	width: 100%;
@@ -280,14 +292,14 @@ h1 {
 }
 .but-link a:hover {
 	background: rgba(0,0,0,0.8);
-	color: #00cc66;
+	color: #27888b;
 	text-decoration: none;
 }
 .but-link a:hover i {
-	color: #00cc66;
+	color: #27888b;
 }
 .but-link a:hover span {
-	color: #00cc66;
+	color: #27888b;
 }
 .but button { 
 	display: block;
@@ -355,14 +367,14 @@ a:hover{
 	text-align: center;
 }
 .soc li a .fa:hover {
-	color: #00cc66 !important;
+	color: #27888b !important;
 }
 .soc li a:hover {
-	color: #00cc66 !important;
+	color: #27888b !important;
 	text-decoration: none;
 }
 .soc li a:focus {
-	color: #00cc66 !important;
+	color: #27888b !important;
 }
 .navi li {
 	list-style: none;
@@ -376,10 +388,10 @@ a:hover{
 	font-size: 0.9em;
 }
 .navi li a:hover {
-	color: #00cc66 !important;
+	color: #27888b !important;
 }
 .navi li a:focus {
-	color: #00cc66 !important;
+	color: #27888b !important;
 }
 .navi p {
 	color: #ccc;
@@ -425,7 +437,7 @@ footer img {
 	cursor: pointer;
 }
 #nav-icon1:hover span{
-	background-color: #00cc66;
+	background-color: #27888b;
 }
 
 #nav-icon1 span {
