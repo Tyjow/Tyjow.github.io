@@ -132,7 +132,7 @@
 	function animate(){
 		var grad = bgCtx.createLinearGradient(0,0,0,850);
 		grad.addColorStop(0.1,"#00111e");
-		grad.addColorStop(0.4,"#113a3c");
+		grad.addColorStop(0.4,"#033d5e");
 		grad.addColorStop(1,"#00111e");
 		bgCtx.fillStyle = grad;
 		bgCtx.fillRect(0,0,background.width,background.height);
